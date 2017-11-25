@@ -7,7 +7,7 @@
     </head>
     <body>
          <h1>Welcome To The Introduction Of web Development</h1>
-        <p>Please enter your name <%= request.getParameter("firstName")%> <%= request.getParameter("lastName")%></p>
+        <p>Your name is: <%= request.getParameter("firstName")%> <%= request.getParameter("lastName")%></p>
         <form action="output.jsp"><table border="0">
 
                 <tbody>
